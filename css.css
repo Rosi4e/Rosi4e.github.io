@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+html,body{
+    background-image: linear-gradient(to bottom right , black,black,#9F9B90);
+    background-attachment: fixed;
+    height: 100%;
+    background-size: cover;
+}
+#home{
+    height: 100vh;
+}
+#home > div > div:nth-child(1){
+    padding: 10px;
+    line-height: 1.5;
+}
+body > header > img{
+    height: 150px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+body > header > img:hover{
+    transform: scale(1.1);
+}
+span {
+    color: #9F9B90;
+}
+span:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 25px rgb(159, 155, 144);
+}
+body > header {
+    display: flex;
+    padding: 20px 144px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    height: 90px;
+    backdrop-filter:blur(10px) ;
+}
+
+body > header > h1 {
+    color: white;
+}
+body > header > nav {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left:64px;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 3px solid transparent;
+}
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+    color: #9F9B90;
+    border-bottom: 3px solid #9F9B90;
+}
+#home{
+    height: 100vh;
+}
+#home > div > div:nth-child(1){
+    margin-top: 200px;
+}
+body > section > div > img {
+    border-radius:  30% ;
+    transition: transform 0.4s ease-in-out;
+    margin-top: -270px;
+    float: right;
+    padding: 20px;
+    outline: 5px solid rgb(159, 155, 144);
+}
+body > section > div > img:hover {
+    transform: scale(1.1);
+    box-shadow: -10px -10px 25px rgb(159, 155, 144);
+}
+body > section > div {
+    color: white;
+    padding: 150px;
+    margin-top: -60px;
+}
+body > section > div > div > p:nth-child(4){
+    white-space: nowrap;
+    display: inline;
+}
+#home > div > div:nth-child(1) > h1{
+    font-size: 40px;
+}
+body > section > div > div.icons {
+    display: flex;
+}
+body >section >  div > div.icons a{
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    color: white;
+    border: 2px solid #9F9B90;
+    border-radius: 40%;
+    margin: 20px 10px;
+    transition: transform 0.4s ease-in-out;
+}
+body > section >  div > div.icons a:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgb(159, 155, 144);
+}
+#about{
+    display: flex;
+    height: 100vh;
+}
+#about > img{
+    padding: 20px;
+    border-radius: 10%;
+    margin-left:  150px;
+    margin-top: 200px;
+}
+#about > div{
+    margin-left: 50px;
+    margin-top:20px;
+}
+#about > div > h1{
+    font-size: 40px;
+    padding: 40px;
+}
+#education{
+    height: 100vh;
+    padding: 30px;
+}
+#education > div > div > h1{
+   color: white;
+}
+.timeline-items{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    line-height: 1.5;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.timeline-item:nth-child(odd){
+    text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: 600px;
+}
+
+.item-color {
+    outline: 4px solid #9F9B90;
+    border-radius: 30px;
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 0 0 20px #9F9B90;
+    font-size: 13px;
+    padding: 15px;
+}
+#education > div > div:nth-child(1) > div.item-color{
+    margin-left: 10px;
+}
+.timeline-date {
+    margin-bottom: 20px;
+}
+.item-color:hover {
+    transform: scale(1.1);
+}
+#education > div > div:nth-child(1) > div.item-color,#education > div > div:nth-child(3) > div.item-color{
+    margin-left: 70px;
+}
+.h2{
+    margin-top: 450px;
+    text-align: center;
+}
+#skils{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conteiner1{
+    width: 600px;
+    height: 100vh;
+    padding: 75px 90px;
+
+}
+.heading1{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.bar{
+    font-size: 23px;
+}
+.Technical-bars .bar{
+    margin-top: 40px ;
+}
+.Technical-bars .bar:first-child{
+    margin-top: 0;
+}
+.Technical-bars .bar:last-child{
+    margin-bottom: 0;
+}
+.Technical-bars .bar .info{
+    margin-bottom: 5px;
+}
+.Technical-bars .bar .info span{
+    font-size: 17px;
+    color: whitesmoke;
+}
+.Technical-bars .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 30%;
+    height: 5px;
+    background-color: black;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.Technical-bars .bar  .progress-line span{
+    height: 5px;
+    background-color: #9F9B90;
+    position: absolute;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+
+}
+.progress-line.html span{
+    width: 75%;
+}
+.progress-line.css span{
+    width: 85%;
+}
+.progress-line.javascript span{
+    width: 45%;
+}
+.progress-line.c\+\+ span{
+    width: 80%;
+}
+
+.radial-bars{
+    width: 50%;
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#skils > div.contairner1 > h1{
+    margin-top: -50px;
+}
+#skills > div.contairner1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    margin-top: -700px;
+    justify-content: space-evenly;
+}
+.radial-bars .radial-bar{
+    width: 40%;
+    height: 170px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.radial-bars .radial-bar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+.radial-bars .radial-bar .progress-bar{
+    stroke-width:10 ;
+    stop-color: #9F9B90;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar {
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+.path{
+    stroke-width: 10;
+    stroke: #9F9B90;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.path-1{animation: animate-path1 1s 1s linear forwards}
+.path-2{animation: animate-path2 1s 1s linear forwards}
+.path-3{animation: animate-path3 1s 1s linear forwards}
+.path-4{animation: animate-path4 1s 1s linear forwards}
+
+@keyframes animate-path1 {
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+@keyframes animate-path2 {
+    100%{
+        stroke-dashoffset: 150;
+    }
+}
+@keyframes animate-path3 {
+    100%{
+        stroke-dashoffset: 176;
+    }
+}
+@keyframes animate-path4 {
+    100%{
+        stroke-dashoffset: 76;
+    }
+}
+.radial-bar .percentage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+
+}
+.radial-bar .text{
+    width: 40%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+@keyframes showText {
+    100%{
+        opacity: 1;
+    }
+}
+#contact{
+    height: 100vh;
+}
+.cont{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+#contact > div.request > h3{
+    text-align: center;
+}
+.request {
+    padding: 50px;
+    margin-top: -130px;
+   background: rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+.input{
+    display: flex;
+   margin-left: 240px;
+}
+.input-group{
+    margin-top: 20px;
+    border: none;
+    margin-left: 100px;
+
+}
+#name,#lastname,#email,#subject{
+    color: white;
+    padding: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.83);
+    border-bottom: 1px solid white;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-weight: 500;
+
+
+}
+#sumbit{
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 370px;
+    height: 30px;
+    background: #9F9B90;
+    color: white;
+    transition: transform 0.4s ease-in-out;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.12);
+    color: white;
+    height: 100px;
+}
+body > footer > div a{
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    color: white;
+    border: 2px solid #9F9B90;
+    border-radius: 40%;
+    margin: 20px 10px;
+    transition: transform 0.4s ease-in-out;
+}
